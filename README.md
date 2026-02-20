@@ -56,4 +56,4 @@ This portfolio documents practical prototypes, system designs, and evaluation fr
 
 ---
 
-*Building applied AI systems during 2026-2027 with a focus on enterprise readiness and respoinsbile depliyment.*
+*Building applied AI systems during 2026-2027 with a focus on enterprise readiness and respoinsbile deployment.*
