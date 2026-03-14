@@ -1,8 +1,10 @@
 # Kirsty Burke
 ##AI Decision Systems | 25 Years Product Leadership | Healthcare & Enterprise AI
 
+Designing AI decision systems and copilots for regulated enterprise environments
+
 --
-## Designing AI Systems That Augment Exper Desision-Making
+## Designing AI Systems That Augment Expert Desision-Making
 
 I build AI copilots and decision systems that enhance - not replace - human expertise in complex, regulated environments. 
 
@@ -57,3 +59,37 @@ This portfolio documents practical prototypes, system designs, and evaluation fr
 ---
 
 *Building applied AI systems during 2026-2027 with a focus on enterprise readiness and respoinsbile deployment.*
+
+
+## Live AI Decision Copilot
+Try the deployed application: 
+
+[Launch the app]
+(ai-decision-systems ∙ main ∙ projects/ai-decision-copilot/app.py)
+
+This prototype demonstrates a structured
+AI-assisted decision framework where users can: 
+
+- Define a decision problem
+- Identify evaluation criteria
+- Assign importance weights
+- Compare multiple options
+- Recieve a ranked recommendation
+
+ This illustrates how AI copilots cab support structured decision-making in regulated enterprise environments.  
+
+---------
+## Projects
+### AI Decision Copilot
+
+Enterprise decision-support copilot for structured option evaluation. 
+
+**Capabilities**
+
+- Weighted decision scoring
+- Multi-option comparison
+- Decision ranking
+- Streamlit-based interactive UI
+
+**Technology**
+Python | Streamlit | Decision modelling
