@@ -2,7 +2,7 @@
 ##AI Decision Systems | 25 Years Product Leadership | Healthcare & Enterprise AI
 
 --
-## Designing AI Systems That Augment Exper Desision-Making
+## Designing AI Systems That Augment Expert Desision-Making
 
 I build AI copilots and decision systems that enhance - not replace - human expertise in complex, regulated environments. 
 
