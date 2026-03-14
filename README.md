@@ -57,3 +57,21 @@ This portfolio documents practical prototypes, system designs, and evaluation fr
 ---
 
 *Building applied AI systems during 2026-2027 with a focus on enterprise readiness and respoinsbile deployment.*
+
+
+## Live AI Decision Copilot
+Try the deployed application: 
+
+[Launch the app]
+(ai-decision-systems ∙ main ∙ projects/ai-decision-copilot/app.py)
+
+This prototype demonstrates a structured
+AI-assisted decision framework where users can: 
+
+- Define a decision problem
+- Identify evaluation criteria
+- Assign importance weights
+- Compare multiple options
+- Recieve a ranked recommendation
+
+ This illustrates how AI copilots cab support structured decision-making in regulated enterprise environments.  
