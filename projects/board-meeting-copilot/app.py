@@ -1,26 +1,40 @@
 import streamlit as st
+from openai import OpenAI
 
-st.title("Board Meeting Copilot")
+client = OpenAI()
 
-# Input raw notes
-notes = st.text_area("Enter raw meeting notes or bullet points:")
+st.title("Decision Matrix Copilot")
 
-# Button to generate summary
-if st.button("Generate Board Summary"):
-    if notes.strip() == "":
-        st.warning("Please enter some notes first.")
-    else:
-        summary = f"""
-Board Summary:
+decision = st.text_input("What decision are you trying to make?")
 
-Key Decisions:
-- Placeholder for decisions from notes
+options = st.text_area("List the options you are considering")
 
-Action Items:
-- Placeholder for action items
+criteria = st.text_area("What criteria matter most? (cost, speed, risk, impact etc)")
 
-Discussion Highlights:
-- Placeholder for important discussion points
+if st.button("Generate Decision Matrix"):
+
+    prompt = f"""
+Create a decision matrix for the following:
+
+Decision:
+{decision}
+
+Options:
+{options}
+
+Criteria:
+{criteria}
+
+Return:
+- A comparison of options
+- Pros and cons
+- A recommended choice with reasoning
 """
-        st.write(summary)
-        
+
+    response = client.responses.create(
+        model="gpt-4.1-mini",
+        input=prompt
+    )
+
+    st.subheader("Decision Analysis")
+    st.write(response.output_text)
