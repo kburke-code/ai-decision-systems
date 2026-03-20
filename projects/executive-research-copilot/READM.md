@@ -1,32 +1,32 @@
-\# Executive Research Copilot
+# Executive Research Copilot
 
 
 
-\## Overview
+## Overview
 
 The Executive Research Copilot helps leaders quickly gather and summarise information on key topics, enabling faster and more informed decision-making.
 
 
 
-\## Features
+## Features
 
-\- Summarises research topics
+- Summarises research topics
 
-\- Highlights key insights
+- Highlights key insights
 
-\- Provides structured outputs for quick understanding
+- Provides structured outputs for quick understanding
 
-\- Useful for strategy, market analysis, and meeting prep
+- Useful for strategy, market analysis, and meeting prep
 
 
 
-\## How to Run
+## How to Run
 
 streamlit run app.py
 
 
 
-\## Status
+## Status
 
 Prototype
 
