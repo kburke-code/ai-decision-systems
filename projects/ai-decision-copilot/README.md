@@ -1,34 +1,34 @@
-\# AI Decision Copilot
+# AI Decision Copilot
 
 
 
-\## Overview
+## Overview
 
 The AI Decision Copilot is a structured decision-making tool designed to help leaders clearly define problems, evaluate criteria, and make better decisions.
 
 
 
-\## Features
+## Features
 
-\- Capture decision context
+- Capture decision context
 
-\- Define decision criteria
+- Define decision criteria
 
-\- Assign weights to priorities
+- Assign weights to priorities
 
-\- Structured decision output
+- Structured decision output
 
-\- Simple and fast interface for real-time use
+- Simple and fast interface for real-time use
 
 
 
-\## How to Run
+## How to Run
 
 streamlit run app.py
 
 
 
-\## Status
+## Status
 
 Prototype
 
