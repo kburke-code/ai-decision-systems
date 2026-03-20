@@ -1,32 +1,32 @@
-\# Decision Matrix Copilot
+# Decision Matrix Copilot
 
 
 
-\## Overview
+## Overview
 
 The Decision Matrix Copilot supports structured decision-making by helping users evaluate options against key criteria and generate clear recommendations.
 
 
 
-\## Features
+## Features
 
-\- Define decision criteria
+- Define decision criteria
 
-\- Compare multiple options
+- Compare multiple options
 
-\- Structured output for clarity
+- Structured output for clarity
 
-\- Useful for strategic and operational decisions
+- Useful for strategic and operational decisions
 
 
 
-\## How to Run
+## How to Run
 
 streamlit run app.py
 
 
 
-\## Status
+## Status
 
 Prototype
 

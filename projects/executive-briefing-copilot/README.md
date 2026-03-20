@@ -1,32 +1,32 @@
-\# Executive Briefing Copilot
+# Executive Briefing Copilot
 
 
 
-\## Overview
+## Overview
 
 The Executive Briefing Copilot transforms raw notes into structured executive summaries, highlighting key decisions, risks, and action items.
 
 
 
-\## Features
+## Features
 
-\- Converts notes into structured briefings
+- Converts notes into structured briefings
 
-\- Identifies key decisions and themes
+- Identifies key decisions and themes
 
-\- Extracts action points
+- Extracts action points
 
-\- Designed for leadership meetings
+- Designed for leadership meetings
 
 
 
-\## How to Run
+## How to Run
 
 streamlit run app.py
 
 
 
-\## Status
+## Status
 
 Prototype
 

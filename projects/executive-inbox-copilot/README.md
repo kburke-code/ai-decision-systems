@@ -1,32 +1,32 @@
-\# Executive Inbox Copilot
+# Executive Inbox Copilot
 
 
 
-\## Overview
+## Overview
 
 The Executive Inbox Copilot helps leaders quickly process large volumes of email by summarising key points, identifying actions, and suggesting responses.
 
 
 
-\## Features
+## Features
 
-\- Email summarisation
+- Email summarisation
 
-\- Suggested reply generation
+- Suggested reply generation
 
-\- Extraction of key action items
+- Extraction of key action items
 
-\- Designed for fast decision-making
+- Designed for fast decision-making
 
 
 
-\## How to Run
+## How to Run
 
 streamlit run app.py
 
 
 
-\## Status
+## Status
 
 Prototype
 
