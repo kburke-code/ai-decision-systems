@@ -1,37 +1,43 @@
 import streamlit as st
 from openai import OpenAI
 
+# Connect to OpenAI (uses your OPENAI_API_KEY environment variable)
 client = OpenAI()
 
-st.title("Executive Research Copilot")
+st.title("Board Meeting Copilot")
+st.write("Paste your meeting notes or bullets and get a dynamic executive summary.")
 
-company = st.text_input("Enter company name")
+# Text input for meeting notes
+notes = st.text_area("Enter meeting notes here:")
 
-if st.button("Generate Executive Brief"):
-
-    if company.strip() == "":
-        st.warning("Please enter a company name")
-
+# Button to generate summary
+if st.button("Generate Summary"):
+    if notes.strip() == "":
+        st.warning("Please enter some notes first")
     else:
+        # The prompt we send to OpenAI
+        prompt = f"""You are an executive assistant.
+Take the following raw meeting notes:
 
-        prompt = f"""
-You are a strategic advisor.
+{notes}
 
-Provide a short executive briefing on {company} including:
+Generate:
+1. Key Decisions
+2. Action Items
+3. Discussion Highlights
 
-1. Strategic overview
-2. Key competitors
-3. AI opportunities
-4. Strategic risks
-
-Keep it concise and suitable for a C-suite briefing.
+Make it concise, board-ready, and tailored to the notes provided.
 """
 
+        # Call OpenAI
         response = client.responses.create(
             model="gpt-4.1-mini",
             input=prompt
         )
 
-        briefing = response.output_text
+        # Get text output
+        summary = response.output_text
 
-        st.write(briefing)
+        # Show in Streamlit
+        st.subheader("Executive Summary")
+        st.write(summary)
