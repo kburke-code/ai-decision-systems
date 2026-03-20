@@ -9,7 +9,7 @@ st.title("Executive AI Copilot Suite")
 # Sidebar menu
 app_mode = st.sidebar.selectbox(
     "Choose a tool",
-    ["Inbox Copilot", "KPI Interpreter"]
+    ["Inbox Copilot", "KPI Interpreter", "Decision Copilot"]
 )
 
 # -------------------------
@@ -52,3 +52,27 @@ elif app_mode == "KPI Interpreter":
             insight = "Declining performance — review cost structure."
 
         st.subheader("Results")
+        st.write("Revenue: €" + str(revenue))
+        st.write("Growth: " + str(growth) + "%")
+        st.write("Insight: " + insight)
+
+# -------------------------
+# DECISION COPILOT
+# -------------------------
+elif app_mode == "Decision Copilot":
+    st.header("Decision Copilot")
+
+    notes = st.text_area("Enter meeting notes or bullet points:")
+
+    if st.button("Generate Decision Summary"):
+        if notes:
+            st.subheader("Key Decisions")
+            st.write("- Decision 1: ... based on notes")
+            st.write("- Decision 2: ... based on notes")
+
+            st.subheader("Recommended Actions")
+            st.write("- Action 1: ...")
+            st.write("- Action 2: ...")
+        else:
+            st.warning("Please enter some notes")
+            
